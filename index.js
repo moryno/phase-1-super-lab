@@ -12,7 +12,7 @@ class Tree {
 class Deciduous extends Tree {
     constructor(...args){
         super(...args);
-        this.name = name
+        this.name
     }
     static definition(){
         return super.definition() + ` Deciduous trees shed their leaves annually.`
@@ -21,8 +21,8 @@ class Deciduous extends Tree {
 
 class Evergreen extends Tree {
     constructor(...args){
-        super(species);
-        this.name = name;
+        super(...args);
+        this.name
     }
     static definition(){
         return super.definition() + ` Evergreens keep their leaves all year round.`
